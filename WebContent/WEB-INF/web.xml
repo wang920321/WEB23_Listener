@@ -32,4 +32,24 @@
     <servlet-name>TestPersonBindingServlet</servlet-name>
     <url-pattern>/testPersonBinding</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TestCustmerActiveServlet</display-name>
+    <servlet-name>TestCustmerActiveServlet</servlet-name>
+    <servlet-class>com.itheima.domain.TestCustmerActiveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestCustmerActiveServlet</servlet-name>
+    <url-pattern>/testCustmerActive</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TestCustomerActiveServlet2</display-name>
+    <servlet-name>TestCustomerActiveServlet2</servlet-name>
+    <servlet-class>com.itheima.domain.TestCustomerActiveServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestCustomerActiveServlet2</servlet-name>
+    <url-pattern>/testCustomerActive2</url-pattern>
+  </servlet-mapping>
 </web-app>
