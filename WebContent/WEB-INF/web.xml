@@ -22,4 +22,14 @@
     <servlet-name>TestMyServletContextAttributeListener</servlet-name>
     <url-pattern>/test1</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TestPersonBindingServlet</display-name>
+    <servlet-name>TestPersonBindingServlet</servlet-name>
+    <servlet-class>com.itheima.domain.TestPersonBindingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestPersonBindingServlet</servlet-name>
+    <url-pattern>/testPersonBinding</url-pattern>
+  </servlet-mapping>
 </web-app>
