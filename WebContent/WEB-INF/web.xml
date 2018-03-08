@@ -4,8 +4,11 @@
   
   
   <!-- 注册监听器 -->
-  <listener>
+  <!-- <listener>
       <listener-class>com.itheima.create.MyServletContextListener</listener-class>
+  </listener> -->
+  <listener>
+      <listener-class>com.itheima.create.MyHttpSessionListener</listener-class>
   </listener>
   
   <welcome-file-list>
