@@ -40,7 +40,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>TestCustmerActiveServlet</servlet-name>
-    <url-pattern>/testCustmerActive</url-pattern>
+    <url-pattern>/testCustomerActive</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
